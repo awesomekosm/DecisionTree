@@ -1,0 +1,35 @@
+<root>
+  <node behavior="Empty Table" response="">
+    <node behavior="" response="Play with fork and knife"/>
+    <node behavior="" response="Read Menu"/>
+    <node behavior="" response="Draw with Crayons"/>
+    <node behavior="" response="Go to the bathroom"/>
+  </node>
+  <node behavior="Food" response="">
+    <node behavior="" response="Eat Food with hands"/>
+    <node behavior="" response="Eat Food with fork"/>
+    <node behavior="Drink" response="">
+      <node behavior="" response="Drink Drink"/>
+      <node behavior="" response="Spill drink on Friend"/>
+      <node behavior="Spill Drink" response="">
+        <node behavior="" response="Clean up spilled drink"/>
+      </node>
+    </node>
+  </node>
+  <node behavior="Project Due" response="">
+    <node behavior="Week Before Project" response="">
+      <node behavior="" response="Play Computer Games"/>
+      <node behavior="" response="Surf Reddit"/>
+      <node behavior="" response="Think about project"/>
+    </node>
+    <node behavior="3 Days Before Project" response="">
+      <node behavior="" response="Work On Project"/>
+      <node behavior="" response="Dream About Project"/>
+      <node behavior="Parsing Text" response="">
+        <node behavior="" response="Run away from parsing"/>
+        <node behavior="" response="Man Up and parse"/>
+        <node behavior="" response="Recursion Recursion Recursion "/>
+      </node>
+    </node>
+  </node>
+</root>
